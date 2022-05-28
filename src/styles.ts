@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import { theme } from './theme/theme';
+import backgroundImage from './assets/background.svg';
 
 export const GlobalStyles = createGlobalStyle`
     *,
@@ -12,11 +12,15 @@ export const GlobalStyles = createGlobalStyle`
         outline: none;
         box-sizing: border-box;
         font-family: 'Epilogue', sans-serif;
+        overflow: hidden;
     }
 `;
 
 export const MainStyle = styled.main`
     width: 100vw;
     height: 100vh;
-    background-color: ${theme.mainBackgroundColor};
+    background-image: url(${backgroundImage});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 `;
