@@ -4,7 +4,8 @@
 
 I've created the Nike Landing Page to use React and be a better developer
 
-## Techs
+## Techs and Libs
 
 - React
 - TypeScript
+- Styled Components
