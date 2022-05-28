@@ -1,3 +1,3 @@
 export const theme = {
-    main_background: '',
+    mainBackgroundColor: '#C61616',
 };
